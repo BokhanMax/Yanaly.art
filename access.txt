@@ -1,0 +1,8 @@
+SQL:
+H: localhost
+D: tuo_max-54319_yanaly
+U: tuo_max-54319_wp
+P: 2fpi25?C9
+
+
+admin / DyRVCY$mqKBsGHJ&hj
