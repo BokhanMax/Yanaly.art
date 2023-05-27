@@ -11,4 +11,68 @@
             @content
 
 @import normalize
+@import 'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap'
 
+/* Basic */ 
+
+body
+    font-family: 'Rubik', sans-serif
+.flexrow
+    display: flex
+    flex-direction: row
+    @include respond(mobile)
+        flex-direction: column
+.flexcolumn
+    display: flex
+    flex-direction: column
+ul
+    list-style-type: none
+
+/* Header */
+
+#headercontent
+    display: flex
+    margin: 2%
+.headerleft, .headerlogo, .headerright
+    width: 33%
+    display: flex
+    justify-content: center
+    align-items: flex-end
+.langmenu
+    display: flex
+    font-size: 1.4em
+    gap: 30%
+.headerright
+    gap: 7%
+#headernavigation
+    border-top: 3px solid black
+    border-bottom: 3px solid black
+.header-menu ul
+    display: flex
+    justify-content: space-evenly
+    text-transform: uppercase
+    & a
+        text-decoration: none
+
+/* Footer */
+
+#footertop
+    margin: 2% 10%
+    display: flex
+.footercolumn
+    width: 33%
+    display: flex
+    flex-direction: column
+.footerhead
+    font-size: 1.4em
+    font-weight: 600
+    margin-bottom: 7%
+.footermenu
+    margin-left: 4%
+#footerbottom
+    display: flex
+    justify-content: center
+.footercopyright
+    border-top: 2px solid black
+    width: 80%
+    text-align: center

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="./assets/js/script.js"></script>
     <title>Yanaly Art</title>
     <meta name="description" content="Yanaly Art">
@@ -34,7 +34,36 @@
     <meta name="theme-color" content="#ebebeb">
     <script>new WOW().init();</script>
   </head>
-  <header id="header"> </header>
+  <header id="header">
+    <div id="headercontent">
+      <div class="headerleft"> 
+        <div class="langmenu"> 
+          <div class="langitem">EN</div>
+          <div class="langitem">|</div>
+          <div class="langitem">UA</div>
+        </div>
+      </div>
+      <div class="headerlogo"> 
+        <div class="logowrapper"> <img src="/img/logo.png" alt="Yanaly Logo"></div>
+      </div>
+      <div class="headerright"> 
+        <div class="search"> <img src="/img/header-search.png" width="30" height="30"></div>
+        <div class="cart"><img src="/img/header-cart.png" width="30" height="30"></div>
+      </div>
+    </div>
+    <div id="headernavigation">
+      <nav class="header-menu">
+        <ul> 
+          <li><a href="#">Home</a></li>
+          <li>Frames</li>
+          <li><a href="#">Catalog</a></li>
+          <li>About Us</li>
+          <li>Order And Delivery</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main> 
     <section id="banner"> 
       <div class="banner-wrapper"> 
@@ -42,5 +71,30 @@
       </div>
     </section>
   </main>
-  <footer id="footer"></footer>
+  <footer>
+    <div id="footertop">
+      <div class="footercolumn">
+        <div class="footerhead">Catalog</div>
+        <p class="footermenu">Menu 1</p>
+        <p class="footermenu">Menu 2</p>
+        <p class="footermenu">Menu 3</p>
+        <p class="footermenu">Menu 4</p>
+      </div>
+      <div class="footercolumn">
+        <div class="footerhead">Information</div>
+        <p class="footermenu">Order</p>
+        <p class="footermenu">Delivery</p>
+        <p class="footermenu">About</p>
+        <p class="footermenu">Contacts</p>
+      </div>
+      <div class="footercolumn">
+        <div class="footerhead">Contact Us</div>
+      </div>
+    </div>
+    <div id="footerbottom">
+      <div class="footercopyright">
+        <p>All Rights Reserved © 2023 Yanaly.art</p>
+      </div>
+    </div>
+  </footer>
 </html>
