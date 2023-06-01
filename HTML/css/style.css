@@ -214,7 +214,7 @@ ul {
 /* Header */
 #headercontent {
   display: flex;
-  margin: 2%;
+  margin: 2% 0;
 }
 
 .headerleft, .headerlogo, .headerright {
@@ -226,8 +226,16 @@ ul {
 
 .langmenu {
   display: flex;
-  font-size: 1.4em;
+  font-size: 1.3em;
   gap: 30%;
+}
+
+.langitem a {
+  text-decoration: none;
+  color: black;
+}
+.langitem a:hover {
+  color: #666;
 }
 
 .headerright {
@@ -243,6 +251,7 @@ ul {
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
+  font-size: 1.25em;
 }
 .header-menu ul a {
   text-decoration: none;
@@ -250,6 +259,11 @@ ul {
 }
 .header-menu ul a:hover {
   color: #666;
+}
+
+/* Banner */ 
+.banner-wrapper img {
+  border-bottom: 3px solid black;
 }
 
 /* Footer */

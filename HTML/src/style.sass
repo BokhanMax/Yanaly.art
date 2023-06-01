@@ -32,7 +32,7 @@ ul
 
 #headercontent
     display: flex
-    margin: 2%
+    margin: 2% 0
 .headerleft, .headerlogo, .headerright
     width: 33%
     display: flex
@@ -40,8 +40,14 @@ ul
     align-items: flex-end
 .langmenu
     display: flex
-    font-size: 1.4em
+    font-size: 1.3em
     gap: 30%
+.langitem
+    & a
+        text-decoration: none
+        color: black
+        &:hover
+            color: #666
 .headerright
     gap: 7%
 #headernavigation
@@ -51,11 +57,18 @@ ul
     display: flex
     justify-content: space-evenly
     text-transform: uppercase
+    font-size: 1.25em
     & a
         text-decoration: none
         color: black
         &:hover
             color: #666
+
+/* Banner */ 
+
+.banner-wrapper
+    & img
+        border-bottom: 3px solid black
 
 /* Footer */
 
